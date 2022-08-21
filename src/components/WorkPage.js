@@ -1,7 +1,7 @@
 const WorkPage = () => {
     return (
         <>
-            WorkPage component/page
+            W O R K
         </>
     )
 }

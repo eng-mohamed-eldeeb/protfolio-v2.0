@@ -1,7 +1,7 @@
 const MySkills = () => {
     return (
         <>
-            MySkills component/page
+            S K I L L
         </>
     )
 }

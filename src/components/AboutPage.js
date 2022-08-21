@@ -1,7 +1,7 @@
 const AboutPage = () => {
     return (
         <>
-            AboutPage component/page
+            A B O U T
         </>
     )
 }

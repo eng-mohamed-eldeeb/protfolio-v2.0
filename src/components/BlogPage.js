@@ -1,7 +1,7 @@
 const BlogPage = () => {
     return (
         <>
-            BlogPage component/page
+            B L O G
         </>
     )
 }
