@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import LogoComponent from '../subComponent/LogoComponent'
 import PowerButton from '../subComponent/PowerButton'
 import SocialIcons from '../subComponent/SocialIcons'
+import { NavLink } from 'react-router-dom'
 const MainContainer = styled.div`
 background: ${props => props.theme.body};
 width: 100vw;
@@ -17,6 +18,15 @@ const Container = styled.div`
 padding:2rem;
 `
 
+const Contact = styled(NavLink)`
+    color: ${props => props.theme.text};
+    position: absolute;
+    top: 2rem;
+    right: calc(1rem + 2vw);
+    text-decoration: none;
+    z-index: 1;
+`
+
 const Main = () => {
     return (
         <MainContainer>
@@ -24,8 +34,11 @@ const Main = () => {
                 <PowerButton />
                 <LogoComponent/>
                 <SocialIcons/>
-            <h1>hi there</h1>   
-
+                <Contact target="_blank" to={{pathname:'mailto:agnabiieldeeeb@gmail.com'}}>
+                    <h3>
+                        say hi..
+                    </h3>
+                </Contact>
             </Container>
         </MainContainer>
     )
