@@ -5,7 +5,6 @@ const Logo = styled.h1`
     color: ${props => props.theme.text};
     position: fixed;
     left:2rem;
-    right:2rem;
     z-index:3;
 `
 

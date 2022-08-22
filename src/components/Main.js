@@ -24,7 +24,6 @@ const Contact = styled(NavLink)`
     top: 2rem;
     right: calc(1rem + 2vw);
     text-decoration: none;
-    z-index: 1;
 `
 
 const Main = () => {
@@ -34,9 +33,9 @@ const Main = () => {
                 <PowerButton />
                 <LogoComponent/>
                 <SocialIcons/>
-                <Contact target="_blank" to={{pathname:'mailto:agnabiieldeeeb@gmail.com'}}>
+                <Contact target="_blank" to={{pathname:'mailto:agnabiieldeeeb@gmail '}}>
                     <h3>
-                        say hi..
+                        say hi...
                     </h3>
                 </Contact>
             </Container>
