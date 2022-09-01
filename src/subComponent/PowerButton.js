@@ -1,7 +1,6 @@
 // Home Button
 import styled from "styled-components";
-import { PowerBtn } from "./../components/AllSvgs";
-import {NavLink} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 const Power = styled.button`
   position: fixed;
   top: 2rem;
@@ -9,35 +8,50 @@ const Power = styled.button`
   transform: translate(-50%);
 
   background-color: #fcf6f4;
-  padding: 0.3rem;
-  border-radius: 50%;
-  border: 1px solid #000;
-  width: 2.5rem;
-  height: 2.5rem;
-
+  padding: 0.8rem;
+  background: linear-gradient(
+        to right,
+        ${(props) => props.theme.text} 50%,
+        ${(props) => props.theme.body} 50%
+      )
+      bottom,
+    linear-gradient(
+        to right,
+        ${(props) => props.theme.body} 50%,
+        ${(props) => props.theme.text} 50%
+      )
+      top;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  border: 2px solid #131313;
   cursor: pointer;
 
   &:hover {
-    background-color: #00ffab;
-    box-shadow: 0 0 8px 6px rgba(0, 255, 0, 0.2);
+    background-color: #131313;
+    color: #fff;
   }
-  &>*:first-child{
+  & > *:first-child {
     color: inherit;
+  }
+  .h1 {
+    color: #fff;
+  }
+  .h2 {
+    color: #131313;
   }
 `;
 
-const PowerButton = () => {
+const HomeBtn = () => {
   return (
     <Power>
       <NavLink to="/">
-        <PowerBtn width={30} height={30} fill="currentColor" />
+        <h2>
+          <span className="h1">H O </span> <span className="h2">M E</span>
+        </h2>
       </NavLink>
     </Power>
   );
 };
 
-export default PowerButton;
+export default HomeBtn;
