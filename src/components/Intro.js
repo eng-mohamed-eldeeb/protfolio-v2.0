@@ -38,10 +38,10 @@ const SubBox = styled.div`
 
   .pic {
     position: absolute;
-    top: -14%;
+    top: -9.5%;
     left: 60%;
     transform: translate(-50%, -25%);
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 `;
