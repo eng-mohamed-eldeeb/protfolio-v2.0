@@ -1,11 +1,12 @@
 
 import styled from 'styled-components';
-import { DarckTheme } from '../components/Themes';
+import { DarkTheme } from '../components/Themes';
 const Logo = styled.h1`
     display: inline-block;
-    color: ${props => props.color === 'dark' ? DarckTheme.text : DarckTheme.body};
+    color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
     position: fixed;
     left:2rem;
+    top: 2rem;
     z-index:3;
 `
 

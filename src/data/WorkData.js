@@ -1,12 +1,12 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"My first portfolio",
+        description:"The project is all about me (the programmer). the portfolio main page as a welcoming page.",
+        tags:["HTML","CSS","JS"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://eng-mohamed-eldeeb.github.io/protfolio-1/",
+        github:"https://github.com/eng-mohamed-eldeeb/protfolio-1"
     },
     {
         id:2,

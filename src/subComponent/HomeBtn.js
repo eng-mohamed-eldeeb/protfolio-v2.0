@@ -9,18 +9,7 @@ const Power = styled.button`
 
   background-color: #fcf6f4;
   padding: 0.8rem;
-  background: linear-gradient(
-        to right,
-        ${(props) => props.theme.text} 50%,
-        ${(props) => props.theme.body} 50%
-      )
-      bottom,
-    linear-gradient(
-        to right,
-        ${(props) => props.theme.body} 50%,
-        ${(props) => props.theme.text} 50%
-      )
-      top;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,12 +23,8 @@ const Power = styled.button`
   & > *:first-child {
     color: inherit;
   }
-  .h1 {
-    color: #fff;
-  }
-  .h2 {
-    color: #131313;
-  }
+  color: #131313;
+  z-index: 99;
 `;
 
 const HomeBtn = () => {

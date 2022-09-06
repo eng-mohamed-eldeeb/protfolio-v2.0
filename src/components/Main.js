@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import LogoComponent from "../subComponent/LogoComponent";
-import HomeBtn from "../subComponent/PowerButton";
+import HomeBtn from "../subComponent/HomeBtn";
 import SocialIcons from "../subComponent/SocialIcons";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -39,7 +39,7 @@ const CV = styled(NavLink)`
   position: absolute;
   top: 50%;
   right: calc(1rem + 2vw);
-  
+
   /* transform: rotate(90deg) translate(-50%, -50%); */
   text-decoration: none;
 `;
@@ -158,20 +158,32 @@ const Main = () => {
             say hi man
           </motion.h2>
         </Contact>
-        <CV target="_blank" to={{pathname: "https://docs.google.com/document/d/1xczwsejW0CerM5iJABIICZmI2IHeCh2XzNcJMfgS368/edit?usp=sharing"}}>
+        <CV
+          target="_blank"
+          to={{
+            pathname:
+              "https://docs.google.com/document/d/1xczwsejW0CerM5iJABIICZmI2IHeCh2XzNcJMfgS368/edit?usp=sharing",
+          }}
+        >
           <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
             {"=>"} CV
           </motion.h2>
         </CV>
         <Work to="/work" click={click}>
-          <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>Work {"<="}</motion.h2>
+          <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+            Work {"<="}
+          </motion.h2>
         </Work>
         <BottomBar>
           <About click={click} to="/about">
-            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>{"-"}About.</motion.h2>
+            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+              {"-"}About.
+            </motion.h2>
           </About>
           <Skills to="/skills">
-            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>{"-"}My Skills .</motion.h2>
+            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+              {"-"}My Skills .
+            </motion.h2>
           </Skills>
         </BottomBar>
       </Container>
