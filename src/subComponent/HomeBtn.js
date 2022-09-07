@@ -15,7 +15,7 @@ const Power = styled.button`
   align-items: center;
   border: 2px solid #131313;
   cursor: pointer;
-
+  transition: all 0.13s ease;
   &:hover {
     background-color: #131313;
     color: #fff;

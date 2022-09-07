@@ -154,7 +154,18 @@ const Main = () => {
           target="_blank"
           to={{ pathname: "mailto:agnabiieldeeeb@gmail " }}
         >
-          <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+          <motion.h2
+            initial={{
+              y: -200,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+            animate={{
+              y: 0,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.94 }}
+          >
             say hi man
           </motion.h2>
         </Contact>
@@ -165,23 +176,67 @@ const Main = () => {
               "https://docs.google.com/document/d/1xczwsejW0CerM5iJABIICZmI2IHeCh2XzNcJMfgS368/edit?usp=sharing",
           }}
         >
-          <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+          <motion.h2
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.94 }}
+            initial={{
+              x: +200,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+            animate={{
+              x: 0,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+          >
             {"=>"} CV
           </motion.h2>
         </CV>
-        <Work to="/work" click={click}>
-          <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
-            Work {"<="}
+        <Work to="/projects" click={click}>
+          <motion.h2
+            whileHover={{ scale: 1.04 }}
+            whileTap={{ scale: 0.94 }}
+            initial={{
+              x: -200,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+            animate={{
+              x: 0,
+              transition: { type: "spring", duration: 1.5 },
+            }}
+          >
+            Projects {"<="}
           </motion.h2>
         </Work>
         <BottomBar>
           <About click={click} to="/about">
-            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+            <motion.h2
+              initial={{
+                y: +200,
+                transition: { type: "spring", duration: 1.5 },
+              }}
+              animate={{
+                y: 0,
+                transition: { type: "spring", duration: 1.5 },
+              }}
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.94 }}
+            >
               {"-"}About.
             </motion.h2>
           </About>
           <Skills to="/skills">
-            <motion.h2 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.94 }}>
+            <motion.h2
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.94 }}
+              initial={{
+                y: +200,
+                transition: { type: "spring", duration: 1.5 },
+              }}
+              animate={{
+                y: 0,
+                transition: { type: "spring", duration: 1.5 },
+              }}
+            >
               {"-"}My Skills .
             </motion.h2>
           </Skills>
