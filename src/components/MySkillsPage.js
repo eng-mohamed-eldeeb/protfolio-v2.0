@@ -1,6 +1,6 @@
 import styled, { ThemeProvider } from "styled-components";
 import { LighhtTheme } from "./Themes";
-import { Develope } from "./AllSvgs";
+import Develope from "./Develope";
 import LogoComponent from "./../subComponent/LogoComponent";
 import SocialIcons from "../subComponent/SocialIcons";
 import HomeBtn from "../subComponent/HomeBtn";

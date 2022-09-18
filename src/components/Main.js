@@ -40,8 +40,10 @@ const CV = styled(NavLink)`
   top: 50%;
   right: calc(1rem + 2vw);
 
-  /* transform: rotate(90deg) translate(-50%, -50%); */
   text-decoration: none;
+  @media (max-width: 800px) {
+    transform: rotate(90deg) translate(-50%, -50%);
+  }
 `;
 
 const Work = styled(NavLink)`
@@ -49,8 +51,12 @@ const Work = styled(NavLink)`
   position: absolute;
   top: 45%;
   left: 2rem;
-  /* transform: translate(-50%, -50%) rotate(-90deg); */
   text-decoration: none;
+  @media (max-width: 900px) {
+    transform: rotate(90deg) translate(-50%, -50%);
+    left: -3rem;
+    top: 50%;
+  }
 `;
 
 const BottomBar = styled.div`

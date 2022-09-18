@@ -1,11 +1,10 @@
-import styled, { ThemeProvider, keyframes } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import { DarkTheme } from "./Themes";
 import LogoComponent from "./../subComponent/LogoComponent";
 import SocialIcons from "../subComponent/SocialIcons";
 import HomeBtn from "../subComponent/HomeBtn";
 import ParticleComponent from "./../subComponent/ParticleComponent";
 
-import astronaut from "../assets/Images/spaceman.png";
 import BigTitle from "../subComponent/BigTitle";
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -13,24 +12,10 @@ const Box = styled.div`
   height: 100vh;
   position: relative;
   overflow: hidden;
-`;
 
-const float = keyframes`
-  0% {transform: translateY(-10px)}
-  50% {transform: translateY(15px) translateX(15px)}
-  100% {transform: translateY(-10px)}
-`;
-
-const Spaceman = styled.div`
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  width: 20vw;
-  animation: ${float} 4s infinite;
-  img {
-    width: 100%;
-    height: auto;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Main = styled.div`
@@ -52,8 +37,6 @@ const Main = styled.div`
   backdrop-filter: blur(3px);
 
   position: absolute;
-  left: calc(5rem + 5vw);
-  top: 10rem;
   font-style: italic;
 `
 
@@ -65,9 +48,6 @@ const MySkills = () => {
         <SocialIcons theme="dark" />
         <HomeBtn />
         <ParticleComponent theme="dark" />
-        <Spaceman>
-          <img src={astronaut} alt="space man" />
-        </Spaceman>
         <Main>
           <p>
           I'm a front-end developer located in EGYPT. I love to create simple
