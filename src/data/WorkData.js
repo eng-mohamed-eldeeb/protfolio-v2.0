@@ -18,4 +18,44 @@ export const Work = [
         github:"https://github.com/eng-mohamed-eldeeb/audiophile.git"
         
     },
+    {
+        id:3,
+        name:"Coming soon",
+        description:"SOON",
+        tags:["N/A"],
+        
+        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        id:4,
+        name:"Coming soon",
+        description:"SOON",
+        tags:["N/A"],
+        
+        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+       
+    },{
+        id:5,
+        name:"Coming soon + Redux",
+        description:"SOON",
+        tags:["N/A"],
+        
+        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        
+    },
+    {
+        id:6,
+        name:"Coming soon",
+        description:"SOON",
+        tags:["N/S"],
+        
+        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        
+    },
+    
+  
 ] 
