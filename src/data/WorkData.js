@@ -11,6 +11,15 @@ export const Work = [
     },
     {
         id:2,
+        name:"Movies",
+        description:"A Site that is built using Next js for navigation and taiwind for styling. The site contains movies and tv series information that are well organized. It is fully responsive.",
+        tags:["NEXT JS","tailwind"],
+        
+        demo:"https://movies1-beta.vercel.app/",
+        github:"https://github.com/eng-mohamed-eldeeb/Movies"
+    },
+    {
+        id:3,
         name:"My first portfolio",
         description:"The project is all about me (the programmer). the portfolio main page as a welcoming page.",
         tags:["HTML","CSS","JS"],
@@ -18,15 +27,6 @@ export const Work = [
         demo:"https://eng-mohamed-eldeeb.github.io/protfolio-1/",
         github:"https://github.com/eng-mohamed-eldeeb/protfolio-1"
         
-    },
-    {
-        id:3,
-        name:"Coming soon",
-        description:"SOON",
-        tags:["N/A"],
-        
-        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         id:4,
