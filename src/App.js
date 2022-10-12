@@ -7,9 +7,12 @@ import AboutPage from "./components/AboutPage";
 import ProjectsPage from "./components/Projects";
 import MySkills from "./components/MySkillsPage";
 import { AnimatePresence } from "framer-motion";
+import { useEffect } from 'react';
 function App() {
   const location = useLocation();
-
+  useEffect(() => {
+    document.title = 'El-deeb';
+  });
   return (
     <>
       <GlobalStyle />
