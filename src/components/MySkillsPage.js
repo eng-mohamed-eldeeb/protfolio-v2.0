@@ -28,7 +28,7 @@ const Main = styled.div`
   cursor: pointer;
   @media only screen and (max-width: 450px) {
     width: 55vw;
-    height: 40vh;
+    height: 50vh;
   }
 
   font-family: "Ubuntu Mono", monospace;
