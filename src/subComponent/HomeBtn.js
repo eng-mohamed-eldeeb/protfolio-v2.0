@@ -25,6 +25,9 @@ const Power = styled.button`
   }
   color: #131313;
   z-index: 99;
+  @media only screen and (max-width: 600px) {
+    top: 4rem;
+  }
 `;
 
 const HomeBtn = () => {

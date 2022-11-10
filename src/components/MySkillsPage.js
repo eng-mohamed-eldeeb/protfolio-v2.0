@@ -26,6 +26,10 @@ const Main = styled.div`
   z-index: 3;
   line-height: 1.5;
   cursor: pointer;
+  @media only screen and (max-width: 450px) {
+    width: 55vw;
+    height: 40vh;
+  }
 
   font-family: "Ubuntu Mono", monospace;
   display: flex;

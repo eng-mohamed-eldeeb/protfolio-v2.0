@@ -1,6 +1,15 @@
 export const Work = [
     {
         id:1,
+        name:"Movies",
+        description:"A Site that is built using Next js for navigation and taiwind for styling. The site contains movies and tv series information that are well organized. It is fully responsive.",
+        tags:["NEXT JS","tailwind"],
+        
+        demo:"https://movies1-beta.vercel.app/",
+        github:"https://github.com/eng-mohamed-eldeeb/Movies"
+    },
+    {
+        id:2,
         name:"audiophile",
         description:"A shopping site for audio tech",
         tags:["NEXT JS","CSS"],
@@ -8,15 +17,6 @@ export const Work = [
         demo:"https://audiophile-two.vercel.app/",
         github:"https://github.com/eng-mohamed-eldeeb/audiophile.git"
         
-    },
-    {
-        id:2,
-        name:"Movies",
-        description:"A Site that is built using Next js for navigation and taiwind for styling. The site contains movies and tv series information that are well organized. It is fully responsive.",
-        tags:["NEXT JS","tailwind"],
-        
-        demo:"https://movies1-beta.vercel.app/",
-        github:"https://github.com/eng-mohamed-eldeeb/Movies"
     },
     {
         id:3,

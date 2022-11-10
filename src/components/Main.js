@@ -19,7 +19,14 @@ const MainContainer = styled.div`
   h5,
   h6 {
     font-weight: 500;
+    
+}
+h2 {
+  @media only screen and (max-width: 600px) {
+    font-size: 1.2rem;
   }
+}
+  
 `;
 
 const Container = styled.div`
@@ -66,7 +73,12 @@ const BottomBar = styled.div`
   right: 0;
   width: 100%;
   display: flex;
+  margin: auto;
   justify-content: space-evenly;
+  
+  @media only screen and (max-width: 450px) {
+    width: 80%;
+  }
 `;
 
 const About = styled(NavLink)`
@@ -243,7 +255,7 @@ const Main = () => {
                 transition: { type: "spring", duration: 1.5 },
               }}
             >
-              {"-"}My Skills .
+              {"-"}My Skills.
             </motion.h2>
           </Skills>
         </BottomBar>

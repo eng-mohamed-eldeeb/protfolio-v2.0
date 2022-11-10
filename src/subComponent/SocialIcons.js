@@ -11,7 +11,7 @@ const Icons = styled.div`
   bottom: 0;
   left: 2rem;
 
-  z-index: 3;
+  z-index: 9999;
 
   & > *:not(:last-child) {
     margin: 0.5rem 0;
@@ -20,21 +20,21 @@ const Icons = styled.div`
 
 const Line = styled(motion.span)`
   width: 2px;
-  height: 8rem;
+  height: 4rem;
   background-color: ${(props) =>
     props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+ 
 `;
 
 const SocialIcons = (props) => {
   return (
     <Icons>
-      <motion.div initial={
-        {
-          transform: 'scale(0)'
-        }
-      }
-      animate={{scale:[0,1]}}
-      transition={{type:'spring', duration:1}}
+      <motion.div
+        initial={{
+          transform: "scale(0)",
+        }}
+        animate={{ scale: [0, 1] }}
+        transition={{ type: "spring", duration: 1 }}
       >
         <NavLink
           style={{ color: "inherit" }}
@@ -56,13 +56,12 @@ const SocialIcons = (props) => {
           </svg>
         </NavLink>
       </motion.div>
-      <motion.div initial={
-        {
-          transform: 'scale(0)'
-        }
-      }
-      animate={{scale:[0,1]}}
-      transition={{type:'spring', duration:1}}
+      <motion.div
+        initial={{
+          transform: "scale(0)",
+        }}
+        animate={{ scale: [0, 1] }}
+        transition={{ type: "spring", duration: 1 }}
       >
         <NavLink
           style={{ color: "inherit" }}
@@ -84,13 +83,12 @@ const SocialIcons = (props) => {
           </svg>
         </NavLink>
       </motion.div>
-      <motion.div initial={
-        {
-          transform: 'scale(0)'
-        }
-      }
-      animate={{scale:[0,1]}}
-      transition={{type:'spring', duration:1}}
+      <motion.div
+        initial={{
+          transform: "scale(0)",
+        }}
+        animate={{ scale: [0, 1] }}
+        transition={{ type: "spring", duration: 1 }}
       >
         <NavLink
           style={{ color: "inherit" }}
@@ -114,7 +112,7 @@ const SocialIcons = (props) => {
           height: 0,
         }}
         animate={{
-          height: "8rem",
+          height: "4rem",
         }}
         transition={{ type: "spring", duration: 1 }}
       />

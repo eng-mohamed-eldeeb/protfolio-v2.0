@@ -38,6 +38,10 @@ const Main = styled.div`
 
   position: absolute;
   font-style: italic;
+  @media only screen and (max-width: 450px) {
+    width: 60vw;
+    height: 40vh;
+  }
 `
 
 const MySkills = () => {

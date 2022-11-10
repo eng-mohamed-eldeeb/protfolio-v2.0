@@ -43,6 +43,15 @@ const SubBox = styled.div`
     transform: translate(-50%, -25%);
     width: 30%;
     height: auto;
+    @media only screen and (max-width: 450px) {
+    display: none;
+  }
+    @media only screen and (max-width: 1080px) {
+    top: -6%;
+  }
+    @media only screen and (max-width: 768px) {
+    top: -4%;
+  }
   }
 `;
 
@@ -59,6 +68,9 @@ const Text = styled.div`
     color: ${(props) => `rgba(${props.theme.bodyRgba}, 0.6)`};
     font-size: calc(0.5rem + 1.5vw);
     font-weight: 300;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 1em;
   }
 `;
 
