@@ -86,14 +86,13 @@ const MySkills = () => {
             <Develope width={40} heght={40} /> Develope
           </Title>
           <Description>
-            I am fond of creating simple yet amazing sites Like this portfolio site.
+            I am fond of creating simple yet amazing Full-Stack sites.
             though It is very complex to create simple sites, thus I enjoy bringing new ideas to life.
           </Description>
           <Description>
             <strong>SKILLS</strong>
             <p>
-              Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-              etc.
+              JS, React JS, Next JS, Tailwind, Ruby, Rails, ect...
             </p>
           </Description>
           <Description>

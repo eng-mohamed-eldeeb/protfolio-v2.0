@@ -10,13 +10,13 @@ export const Work = [
     },
     {
         id:2,
-        name:"audiophile",
-        description:"A shopping site for audio tech",
-        tags:["NEXT JS","CSS"],
+        name:"Budget",
+        description:"This is a Full Stack mobile site that is Created To set and handle our budget",
+        tags:["Ruby On Rails", "Tailwind", "HTML", "Javascript"],
         
-        demo:"https://audiophile-two.vercel.app/",
-        github:"https://github.com/eng-mohamed-eldeeb/audiophile.git"
-        
+        demo:"https://eldeeb.onrender.com/splash",
+        github:"https://github.com/eng-mohamed-eldeeb/Budget"
+       
     },
     {
         id:3,
@@ -30,14 +30,15 @@ export const Work = [
     },
     {
         id:4,
-        name:"Coming soon",
-        description:"SOON",
-        tags:["N/A"],
+        name:"audiophile",
+        description:"A shopping site for audio tech",
+        tags:["NEXT JS","CSS"],
         
-        demo:"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        github:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-       
-    },{
+        demo:"https://audiophile-two.vercel.app/",
+        github:"https://github.com/eng-mohamed-eldeeb/audiophile.git"
+        
+    },
+    {
         id:5,
         name:"Coming soon + Redux",
         description:"SOON",

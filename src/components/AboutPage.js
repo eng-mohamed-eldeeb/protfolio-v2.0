@@ -54,14 +54,15 @@ const MySkills = () => {
         <ParticleComponent theme="dark" />
         <Main>
           <p>
-          I'm a front-end developer located in EGYPT. I love to create simple
-          yet beautiful websites with great user experience.
+          I'm a Full-Stack developer located in EGYPT. I love to create simple
+          yet beautiful websites with great user experience. And love to create complicated Backend
+          because I don't think there is any simple backend :).
           <br />
             
           </p>
           <p>
 
-          I'm interested in the whole frontend stack Like trying new things and
+          I'm interested in the whole Full-Stack Like trying new things and
           building great projects.
           </p>
           <p>
