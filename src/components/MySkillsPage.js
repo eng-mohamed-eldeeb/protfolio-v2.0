@@ -58,7 +58,7 @@ const Title = styled.h2`
 
 const Description = styled.div`
   color: ${(props) => props.theme.text};
-  font-size: calc(0.6em + 1vw);
+  font-size: 1.3em;
   padding: 0.5rem 0;
   strong {
     margin-bottom: 1rem;
@@ -94,9 +94,12 @@ const MySkills = () => {
             <p>
               JS, React JS, Next JS, Tailwind, Ruby, Rails, ect...
             </p>
+            
+            <strong>Soft skills</strong>
+            <p>Teamwork, Problem solving, Communication, Adaptability, Critical thinking, Time management, Interpersonal etc.</p>
           </Description>
           <Description>
-            <stromg>Toola</stromg>
+            <stromg>Tools</stromg>
             <p>VScode, Github, Codepen etc.</p>
           </Description>
         </Main>
